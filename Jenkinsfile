@@ -94,7 +94,7 @@ pipeline
         
         stage("Deploy to UAT"){
             steps{
-                echo("deploy to Stage")
+                echo("deploy to UAT")
             }
         }
         
