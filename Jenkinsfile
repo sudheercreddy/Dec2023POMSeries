@@ -46,9 +46,9 @@ pipeline
         
         
         
-        stage("Deploy to QA"){
+        stage("Deploy to STAG"){
             steps{
-                echo("deploy to qa")
+                echo("deploy to STAG")
             }
         }
         
@@ -92,7 +92,7 @@ pipeline
             }
         }
         
-        stage("Deploy to Stage"){
+        stage("Deploy to UAT"){
             steps{
                 echo("deploy to Stage")
             }
